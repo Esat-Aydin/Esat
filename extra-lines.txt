@@ -1,0 +1,44 @@
+text-[#e8b923] //gold text
+#915eff // purple
+
+    'react/no-unknown-property': 'off',  // <-- Add this line
+    'react/no-unused-vars': 'off',
+
+
+        I&apos;m a fullstack developer, with a passion for creating beautiful and functional user experiences.
+        I have a keen interest in web and mobile development and I am always looking to learn new technologies.
+        I am a hard-working and dedicated individual, who is always looking to learn and improve.
+        I also have experience working in a scrum environment.
+
+
+iconOnClick
+383E56
+git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
+npm run deploy -- -u "github-actions-bot <support+actions@github.com>"
+
+npm run deploy
+
+.eslintrc.cjs
+
+module.exports = {
+  root: true,
+  env: { browser: true, es2020: true },
+  extends: [
+    'eslint:recommended',
+    'plugin:react/recommended',
+    'plugin:react/jsx-runtime',
+    'plugin:react-hooks/recommended',
+  ],
+  ignorePatterns: ['dist', '.eslintrc.cjs'],
+  parserOptions: { ecmaVersion: 'latest', sourceType: 'module' },
+  settings: { react: { version: '18.2' } },
+  plugins: ['react-refresh'],
+  rules: {
+    'react/no-unused-vars': 'off',
+    'react/no-unknown-property': 'off',  // <-- Add this line
+    'react-refresh/only-export-components': [
+      'warn',
+      { allowConstantExport: true },
+    ],
+  },
+}
