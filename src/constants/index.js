@@ -23,6 +23,9 @@ import {
   bittikk,
   expertise,
   epitomeent,
+  blazor,
+  c_logo,
+  postgre,
 } from "../assets";
 
 export const navLinks = [
@@ -79,6 +82,18 @@ const technologies = [
     name: "TypeScript",
     icon: typescript,
   },
+  {
+    name: "Blazor",
+    icon: blazor,
+  },
+  {
+    name: "C#",
+    icon: c_logo,
+  },
+  {
+    name: "PostgreSQL",
+    icon: postgre,
+  },
   // {
   //   name: "React JS",
   //   icon: reactjs,
@@ -103,18 +118,18 @@ const technologies = [
   //   name: "Three JS",
   //   icon: threejs,
   // },
-  {
-    name: "git",
-    icon: git,
-  },
+  // {
+  //   name: "git",
+  //   icon: git,
+  // },
   // {
   //   name: "figma",
   //   icon: figma,
   // },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  // {
+  //   name: "docker",
+  //   icon: docker,
+  // },
 ];
 
 const experiences = [
