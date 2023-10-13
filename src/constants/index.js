@@ -241,8 +241,8 @@ const projects = [
   },
   {
     name: "Esthetisch Expertise",
-    description:
-      "Created a website for Esthetisch Expertise. Shows different services that are being offered by Esthetisch Expertise. The website is created using a low-code platform named Framer and also the hosting is done through them.",
+    description: "Created a website for Esthetisch Expertise. This site is a platform showcasing different services offered by Esthetisch Expertise, ranging from cleaning, customization, to restoration. The design and implementation were done using the Framer low-code platform. The hosting and deployment were also facilitated by Framer, ensuring consistent performance and uptime.",
+
     tags: [
       {
         name: "Framer",

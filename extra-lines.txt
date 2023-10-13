@@ -42,3 +42,8 @@ module.exports = {
     ],
   },
 }
+
+
+
+
+      "Created a website for Esthetisch Expertise. Shows different services that are being offered by Esthetisch Expertise. The website is created using a low-code platform named Framer and also the hosting is done through them.",
