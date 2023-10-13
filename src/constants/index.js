@@ -44,14 +44,17 @@ const services = [
   {
     title: "Web Developer",
     icon: web,
+    skills: ['C#', '.Net', 'Blazor', 'Typescript', 'Ionic', 'SQL Server', 'PostgreSQL', 'Git', 'RabbitMQ']
   },
   {
     title: "Mobile Developer",
     icon: mobile,
+    skills: ['Azure', 'VPS', 'Electron', 'CI/CD', 'Lamda', 'OOP', 'Microservices', 'Entity Framework']
   },
   {
     title: ".Net Developer",
     icon: backend,
+    skills: ['Visual Studio Code', 'Visual Studio', 'Rider', 'Android Studio', 'Xcode', 'Github', 'Dutch', 'English']
   },
   // {
   //   title: "Fullstack Developer",

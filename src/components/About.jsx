@@ -7,11 +7,11 @@ import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 
-const ServiceCard = ({ index, title, icon }) => (
+const ServiceCard = ({ index, title, skills, icon }) => (
   <Tilt className='xs:w-[250px] w-full'>
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
-      className='w-full bg-purple-gold-gradient p-[1px] rounded-[20px] shadow-card'
+      className='w-full bg-purple-byzantium-gradient p-[1px] rounded-[20px] shadow-card'
     >
       <div
         options={{
@@ -19,17 +19,28 @@ const ServiceCard = ({ index, title, icon }) => (
           scale: 1,
           speed: 450,
         }}
-        className='bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
+        className='bg-tertiary rounded-[20px] py-0 px-2 min-h-[280px] w-full flex justify-evenly items-center flex-col'
       >
         <img
           src={icon}
           alt='web-development'
-          className='w-16 h-16 object-contain'
+          className='w-14 h-14 object-contain'
         />
 
-        <h3 className='text-white text-[20px] font-bold text-center'>
+        <h3 className='text-white text-[18px] font-bold text-center'>
           {title}
         </h3>
+
+        <div className='mt-1 flex flex-wrap w-[180px] justify-center'>
+          {skills.map((skill, index) => (
+            <p 
+              key={`${skill.name}`}
+              className={`text-[12px] ${index % 2 === 0 ? "text-pink-300" : "text-blue-300"}`}>
+                {skill}, &nbsp;
+            </p>
+          ))}
+      </div>
+
       </div>
     </motion.div>
   </Tilt>
