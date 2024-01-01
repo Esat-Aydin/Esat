@@ -36,6 +36,7 @@ import tripguide from "./tripguide.png";
 import bittikk from "./bittikk.png";
 import expertise from "./expertise.png";
 import epitomeent from "./epitomeent.png";
+import HRleavemanagement from "./HRleavemanagement.png";
 
 export {
   bpa,
@@ -69,6 +70,7 @@ export {
   jobit,
   tripguide,
   bittikk,
+  HRleavemanagement,
   expertise,
   epitomeent,
   postgre,

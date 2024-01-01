@@ -21,6 +21,7 @@ import {
   rabobank,
   bpa,
   bittikk,
+  HRleavemanagement,
   expertise,
   epitomeent,
   blazor,
@@ -234,7 +235,28 @@ const projects = [
       },
     ],
     image: bittikk,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Esat-Aydin",
+  },
+  {
+    name: "HR.Leavemanagement",
+    description:
+    "Developing a HR leave management system. This application focuses on the following: Application & Infrastructure Layers, Unit and Integration Testing, API Development (Response Logging, JWT Security), Blazor UI Development (Custom Handlers and Auth Provider), Dependency Injection, Separation of Concerns, CQRS and Mediator Patterns, Repository Pattern",
+    tags: [
+      {
+        name: "Blazor",
+        color: "blue-text-gradient",
+      },
+      {
+        name: ".Net",
+        color: "green-text-gradient",
+      },
+      {
+        name: "SQL Server",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: HRleavemanagement,
+    source_code_link: "https://github.com/Esat-Aydin",
   },
   {
     name: "Epitome Entertainment",
@@ -255,7 +277,7 @@ const projects = [
       },
     ],
     image: epitomeent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Esat-Aydin",
   },
   {
     name: "Esthetisch Expertise",
@@ -268,7 +290,7 @@ const projects = [
       }
     ],
     image: expertise,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Esat-Aydin",
   },
 ];
 
